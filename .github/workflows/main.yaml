@@ -13,6 +13,6 @@ jobs:
       - name: display diff
         run: |
           cat <<EOF
-          ${{ env.MY_DIFF }}
+          ${{ steps.git-full-diff.output.diff }}
           EOF
         shell: bash
