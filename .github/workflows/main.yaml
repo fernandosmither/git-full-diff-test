@@ -9,6 +9,6 @@ jobs:
         with:
           fetch-depth: 0
       - id: git-full-diff
-        uses: fernandosmither/git-full-diff@v1.0.0
+        uses: fernandosmither/git-full-diff@v1.0.1
       - run: echo The diff is ${{ steps.git-full-diff.outputs.diff }}
         shell: bash
