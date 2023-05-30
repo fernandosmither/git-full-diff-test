@@ -8,6 +8,6 @@
 
 This is new text
 
-Some
-real
+Real
 Diff
+Town
