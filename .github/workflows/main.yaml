@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: fernandosmither/git-full-diff@v1.1
+        uses: fernandosmither/git-full-diff@v1.2
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
