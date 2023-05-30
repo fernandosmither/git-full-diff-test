@@ -10,6 +10,9 @@ jobs:
           fetch-depth: 0
       - id: git-full-diff
         uses: fernandosmither/git-full-diff@v1.0.2
-      - run: |
-          echo ${{ steps.git-full-diff.outputs.diff }}
+      - name: display diff
+        run: |
+          cat <<EOF
+          ${{ env.MY_DIFF }}
+          EOF
         shell: bash
