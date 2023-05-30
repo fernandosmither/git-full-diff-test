@@ -13,6 +13,6 @@ jobs:
       - name: display diff
         run: |
           cat <<EOF
-          ${{ steps.git-full-diff.output.diff }}
+          ${{ steps.git-full-diff.outputs.diff }}
           EOF
         shell: bash

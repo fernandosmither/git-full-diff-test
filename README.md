@@ -25,3 +25,8 @@ Yet
 Realest
 Diff
 Eva
+
+
+Typos
+Kinda Suck
+Man
