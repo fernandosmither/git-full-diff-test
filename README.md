@@ -1,8 +1,5 @@
 # git-full-diff-test
 
-# This is an added title
+# New added title
 
-
-Lorem
-
-This is added text
+Text!
